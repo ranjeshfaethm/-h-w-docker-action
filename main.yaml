@@ -1,11 +1,10 @@
-name: 'h-w-docker'
+name: 'h-w-docker-action'
 description: 'run hello world on docker'
 
 inputs:
-  token:
-    description: 'name'
-    default: 'Hello world!'
-
+  who-to-greet:
+    description: 'who-to-greet'
+    default: 'Shazaam!'
 runs:
   using: 'docker'
   image: 'docker/Dockerfile'
