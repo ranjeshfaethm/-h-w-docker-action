@@ -1,0 +1,11 @@
+name: 'h-w-docker'
+description: 'run hello world on docker'
+
+inputs:
+  token:
+    description: 'name'
+    default: 'Hello world!'
+
+runs:
+  using: 'docker'
+  image: 'docker/Dockerfile'
